@@ -1,0 +1,13 @@
+Version 1.0.3.
+This update contains bug fixes and improvements for DisplayLink Apps on all supported platforms (Linux, macOS). The update is recommended for all users.
+
+The update includes the following changes:
+
+- [+] update checks
+- [e] performance improvements, enhancements for the GUI rendering engine
+- [e] network connection improvements
+- [e] for permissionlevel > 3: now read-only access to all other users' data
+- [e] The label for username and status in the user frame is now limited to 25 characters.
+- [+] login improvements
+- [-] security bugs
+

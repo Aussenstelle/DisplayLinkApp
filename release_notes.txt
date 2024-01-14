@@ -1,13 +1,40 @@
-Version 1.0.3.
-This update contains bug fixes and improvements for DisplayLink Apps on all supported platforms (Linux, macOS). The update is recommended for all users.
+Version 2.0.1 [PUBLIC RELEASE]
 
-The update includes the following changes:
+English:
+
+This update contains security improvements to DisplayLink Apps, Server and Client and is MANDATORY for all users.
+A Server Versions > 2.0.0 has no compatibility to DisplayLink App and Client version 1.x.x. 
+When you upgrade the server, you have to use the new Apps and Clients.
+
+The update includes the following changes and features:
 
 - [+] update checks
 - [e] performance improvements, enhancements for the GUI rendering engine
 - [e] network connection improvements
-- [e] for permissionlevel > 3: now read-only access to all other users' data
+- [e] for permission level > 3: now read-only access to all other users' data
 - [e] The label for username and status in the user frame is now limited to 25 characters.
 - [+] login improvements
 - [-] security bugs
+- [+] [Client] new rotating image functionality
+
+Login updates:
+
+- [e] redesign for verification components
+- [+] [App] switched from less secure hash based authentication to asymmetric RSA-Authentication
+- [+] [Client] The client now has to verify itself with an RSA-Certificate 
+- [+] [Server] Display has to authenticate with certificate 
+- [+] [Server] User login with RSA is now mandatory for all clients
+
+
+German version:
+
+Diese Update enthält Sicherheitsupdates und Verbesserungen für DisplayLink Apps, Server und Client und ist VERPFLICHTEND für alle Benutzer.
+Ein Server Version > 2.0.0 ist nicht kompatibel mit älteren App und Client version 1.x.x.
+Wenn du den Server upgradest MUSST du die neueren Apps benutzen.
+
+- [+] Automatische überprüfungen nach Updates
+- [e] Performance Verbesserungen und Verbesserungen für die GUI Rendering engine
+- [e] Netzwerk Verbindungs Anderungen
+- [...]
+
 
